@@ -1,0 +1,359 @@
+0000.000 (0) Opened log file at time: Thu, 01 Dec 2022 13:08:53 +0000 on https://krunalkanojiya.com
+0000.002 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.22.23 WP: 6.1.1 PHP: 7.4.33 (litespeed, Linux server382.iseencloud.com 4.18.0-372.26.1.lve.1.el7h.x86_64 #1 SMP Fri Sep 16 11:19:01 EDT 2022 x86_64) MySQL: 10.3.37-MariaDB (max packet size=268435456) WPLANG: en_US Server: LiteSpeed safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 9.2M | 4M) multisite: N openssl: OpenSSL 1.1.1p  21 Jun 2022 mcrypt: Y LANG:  ZipArchive::addFile: Y
+0000.023 (0) Free space on disk containing Updraft's temporary directory: 1450234.7 MB
+0000.026 (0) Tasks: Backup files: 1 (schedule: unset) Backup DB: 1 (schedule: unset)
+0000.029 (0) Semaphore (fd, wpxx_options) being initialised
+0000.036 (0) Requesting semaphore lock (fd) (apparently not via scheduler)
+0000.041 (0) Set semaphore last lock (fd) time to 2022-12-01 13:08:53
+0000.043 (0) Semaphore lock (fd) complete
+0000.049 (0) Backup run: resumption=0, nonce=1a68dd61edd6, file_nonce=1a68dd61edd6 begun at=1669900133 (0s ago), job type=backup
+0000.052 (0) Scheduling a resumption (1) after 300 seconds (1669900433) in case this run gets aborted
+0000.076 (0) Checking if we have a zip executable available
+0000.078 (0) Testing: /usr/bin/zip
+0000.086 (0) Output: zip warning: binziptest/test.zip not found or empty
+0000.088 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0000.090 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0000.091 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=131) (out=107) (deflated 18%)
+0000.093 (0) Output: total bytes=131, compressed=107 -> 18% savings
+0000.099 (0) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=138) (out=113) (deflated 18%)
+0000.101 (0) Output: total bytes=269, compressed=220 -> 18% savings
+0000.104 (0) Working binary zip found: /usr/bin/zip
+0000.107 (0) Zip engine: found/will use a binary zip: /usr/bin/zip
+0000.109 (0) Creation of backups of directories: beginning
+0000.115 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0000.365 (0) Total entities for the zip file: 1163 directories, 5229 files (0 skipped as non-modified), 83.4 MB
+0000.371 (0) Zip: backup_2022-12-01-1838_Krunal_Kanojiya_1a68dd61edd6-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0000.375 (0) Zip: backup_2022-12-01-1838_Krunal_Kanojiya_1a68dd61edd6-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0000.378 (0) Zip: backup_2022-12-01-1838_Krunal_Kanojiya_1a68dd61edd6-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+0000.382 (0) Zip: backup_2022-12-01-1838_Krunal_Kanojiya_1a68dd61edd6-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+0000.385 (0) Zip: backup_2022-12-01-1838_Krunal_Kanojiya_1a68dd61edd6-plugins.zip.tmp: 500 files added (on-disk size: 0 KB)
+0000.388 (0) Zip: backup_2022-12-01-1838_Krunal_Kanojiya_1a68dd61edd6-plugins.zip.tmp: 600 files added (on-disk size: 0 KB)
+0000.393 (0) Zip: backup_2022-12-01-1838_Krunal_Kanojiya_1a68dd61edd6-plugins.zip.tmp: 700 files added (on-disk size: 0 KB)
+0000.397 (0) Zip: backup_2022-12-01-1838_Krunal_Kanojiya_1a68dd61edd6-plugins.zip.tmp: 800 files added (on-disk size: 0 KB)
+0000.400 (0) Zip: backup_2022-12-01-1838_Krunal_Kanojiya_1a68dd61edd6-plugins.zip.tmp: 900 files added (on-disk size: 0 KB)
+0000.403 (0) Zip: backup_2022-12-01-1838_Krunal_Kanojiya_1a68dd61edd6-plugins.zip.tmp: 1000 files added (on-disk size: 0 KB)
+0000.405 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (23.3 MB, 5229 files batched, 1001 (1001) added so far); re-opening (prior size: 0 KB)
+0026.405 (0) backup_2022-12-01-1838_Krunal_Kanojiya_1a68dd61edd6-plugins.zip.tmp: size is now: 6.90 MB
+0026.425 (0) Zip: backup_2022-12-01-1838_Krunal_Kanojiya_1a68dd61edd6-plugins.zip.tmp: 1100 files added (on-disk size: 7030.6 KB)
+0026.429 (0) Zip: backup_2022-12-01-1838_Krunal_Kanojiya_1a68dd61edd6-plugins.zip.tmp: 1200 files added (on-disk size: 7030.6 KB)
+0026.432 (0) Zip: backup_2022-12-01-1838_Krunal_Kanojiya_1a68dd61edd6-plugins.zip.tmp: 1300 files added (on-disk size: 7030.6 KB)
+0026.435 (0) Zip: backup_2022-12-01-1838_Krunal_Kanojiya_1a68dd61edd6-plugins.zip.tmp: 1400 files added (on-disk size: 7030.6 KB)
+0026.439 (0) Zip: backup_2022-12-01-1838_Krunal_Kanojiya_1a68dd61edd6-plugins.zip.tmp: 1500 files added (on-disk size: 7030.6 KB)
+0026.442 (0) Zip: backup_2022-12-01-1838_Krunal_Kanojiya_1a68dd61edd6-plugins.zip.tmp: 1600 files added (on-disk size: 7030.6 KB)
+0026.445 (0) Zip: backup_2022-12-01-1838_Krunal_Kanojiya_1a68dd61edd6-plugins.zip.tmp: 1700 files added (on-disk size: 7030.6 KB)
+0026.449 (0) Zip: backup_2022-12-01-1838_Krunal_Kanojiya_1a68dd61edd6-plugins.zip.tmp: 1800 files added (on-disk size: 7030.6 KB)
+0026.452 (0) Zip: backup_2022-12-01-1838_Krunal_Kanojiya_1a68dd61edd6-plugins.zip.tmp: 1900 files added (on-disk size: 7030.6 KB)
+0026.455 (0) Zip: backup_2022-12-01-1838_Krunal_Kanojiya_1a68dd61edd6-plugins.zip.tmp: 2000 files added (on-disk size: 7030.6 KB)
+0026.457 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (12.9 MB, 5229 files batched, 1001 (2002) added so far); re-opening (prior size: 7030.6 KB)
+0044.927 (0) backup_2022-12-01-1838_Krunal_Kanojiya_1a68dd61edd6-plugins.zip.tmp: size is now: 10.70 MB
+0044.934 (0) Zip: backup_2022-12-01-1838_Krunal_Kanojiya_1a68dd61edd6-plugins.zip.tmp: 2100 files added (on-disk size: 10966.8 KB)
+0044.937 (0) Zip: backup_2022-12-01-1838_Krunal_Kanojiya_1a68dd61edd6-plugins.zip.tmp: 2200 files added (on-disk size: 10966.8 KB)
+0044.941 (0) Zip: backup_2022-12-01-1838_Krunal_Kanojiya_1a68dd61edd6-plugins.zip.tmp: 2300 files added (on-disk size: 10966.8 KB)
+0044.944 (0) Zip: backup_2022-12-01-1838_Krunal_Kanojiya_1a68dd61edd6-plugins.zip.tmp: 2400 files added (on-disk size: 10966.8 KB)
+0044.947 (0) Zip: backup_2022-12-01-1838_Krunal_Kanojiya_1a68dd61edd6-plugins.zip.tmp: 2500 files added (on-disk size: 10966.8 KB)
+0044.950 (0) Zip: backup_2022-12-01-1838_Krunal_Kanojiya_1a68dd61edd6-plugins.zip.tmp: 2600 files added (on-disk size: 10966.8 KB)
+0044.954 (0) Zip: backup_2022-12-01-1838_Krunal_Kanojiya_1a68dd61edd6-plugins.zip.tmp: 2700 files added (on-disk size: 10966.8 KB)
+0044.957 (0) Zip: backup_2022-12-01-1838_Krunal_Kanojiya_1a68dd61edd6-plugins.zip.tmp: 2800 files added (on-disk size: 10966.8 KB)
+0044.960 (0) Zip: backup_2022-12-01-1838_Krunal_Kanojiya_1a68dd61edd6-plugins.zip.tmp: 2900 files added (on-disk size: 10966.8 KB)
+0044.963 (0) Zip: backup_2022-12-01-1838_Krunal_Kanojiya_1a68dd61edd6-plugins.zip.tmp: 3000 files added (on-disk size: 10966.8 KB)
+0044.965 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (14.4 MB, 5229 files batched, 1001 (3003) added so far); re-opening (prior size: 10966.8 KB)
+0061.341 (0) backup_2022-12-01-1838_Krunal_Kanojiya_1a68dd61edd6-plugins.zip.tmp: size is now: 13.30 MB
+0061.362 (0) Zip: backup_2022-12-01-1838_Krunal_Kanojiya_1a68dd61edd6-plugins.zip.tmp: 3100 files added (on-disk size: 13652.1 KB)
+0061.370 (0) Zip: backup_2022-12-01-1838_Krunal_Kanojiya_1a68dd61edd6-plugins.zip.tmp: 3200 files added (on-disk size: 13652.1 KB)
+0061.373 (0) Zip: backup_2022-12-01-1838_Krunal_Kanojiya_1a68dd61edd6-plugins.zip.tmp: 3300 files added (on-disk size: 13652.1 KB)
+0061.376 (0) Zip: backup_2022-12-01-1838_Krunal_Kanojiya_1a68dd61edd6-plugins.zip.tmp: 3400 files added (on-disk size: 13652.1 KB)
+0061.379 (0) Zip: backup_2022-12-01-1838_Krunal_Kanojiya_1a68dd61edd6-plugins.zip.tmp: 3500 files added (on-disk size: 13652.1 KB)
+0061.383 (0) Zip: backup_2022-12-01-1838_Krunal_Kanojiya_1a68dd61edd6-plugins.zip.tmp: 3600 files added (on-disk size: 13652.1 KB)
+0061.386 (0) Zip: backup_2022-12-01-1838_Krunal_Kanojiya_1a68dd61edd6-plugins.zip.tmp: 3700 files added (on-disk size: 13652.1 KB)
+0061.389 (0) Zip: backup_2022-12-01-1838_Krunal_Kanojiya_1a68dd61edd6-plugins.zip.tmp: 3800 files added (on-disk size: 13652.1 KB)
+0061.392 (0) Zip: backup_2022-12-01-1838_Krunal_Kanojiya_1a68dd61edd6-plugins.zip.tmp: 3900 files added (on-disk size: 13652.1 KB)
+0061.396 (0) Zip: backup_2022-12-01-1838_Krunal_Kanojiya_1a68dd61edd6-plugins.zip.tmp: 4000 files added (on-disk size: 13652.1 KB)
+0061.397 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (21.4 MB, 5229 files batched, 1001 (4004) added so far); re-opening (prior size: 13652.1 KB)
+0080.637 (0) backup_2022-12-01-1838_Krunal_Kanojiya_1a68dd61edd6-plugins.zip.tmp: size is now: 19.30 MB
+0080.652 (0) Zip: backup_2022-12-01-1838_Krunal_Kanojiya_1a68dd61edd6-plugins.zip.tmp: 4100 files added (on-disk size: 19755.8 KB)
+0080.656 (0) Zip: backup_2022-12-01-1838_Krunal_Kanojiya_1a68dd61edd6-plugins.zip.tmp: 4200 files added (on-disk size: 19755.8 KB)
+0080.659 (0) Zip: backup_2022-12-01-1838_Krunal_Kanojiya_1a68dd61edd6-plugins.zip.tmp: 4300 files added (on-disk size: 19755.8 KB)
+0080.662 (0) Zip: backup_2022-12-01-1838_Krunal_Kanojiya_1a68dd61edd6-plugins.zip.tmp: 4400 files added (on-disk size: 19755.8 KB)
+0080.666 (0) Zip: backup_2022-12-01-1838_Krunal_Kanojiya_1a68dd61edd6-plugins.zip.tmp: 4500 files added (on-disk size: 19755.8 KB)
+0080.669 (0) Zip: backup_2022-12-01-1838_Krunal_Kanojiya_1a68dd61edd6-plugins.zip.tmp: 4600 files added (on-disk size: 19755.8 KB)
+0080.672 (0) Zip: backup_2022-12-01-1838_Krunal_Kanojiya_1a68dd61edd6-plugins.zip.tmp: 4700 files added (on-disk size: 19755.8 KB)
+0080.675 (0) Zip: backup_2022-12-01-1838_Krunal_Kanojiya_1a68dd61edd6-plugins.zip.tmp: 4800 files added (on-disk size: 19755.8 KB)
+0080.679 (0) Zip: backup_2022-12-01-1838_Krunal_Kanojiya_1a68dd61edd6-plugins.zip.tmp: 4900 files added (on-disk size: 19755.8 KB)
+0080.682 (0) Zip: backup_2022-12-01-1838_Krunal_Kanojiya_1a68dd61edd6-plugins.zip.tmp: 5000 files added (on-disk size: 19755.8 KB)
+0080.684 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (6.8 MB, 5229 files batched, 1001 (5005) added so far); re-opening (prior size: 19755.8 KB)
+0102.001 (0) Zip: backup_2022-12-01-1838_Krunal_Kanojiya_1a68dd61edd6-plugins.zip.tmp: 5100 files added (on-disk size: 21858.9 KB)
+0102.004 (0) Zip: backup_2022-12-01-1838_Krunal_Kanojiya_1a68dd61edd6-plugins.zip.tmp: 5200 files added (on-disk size: 21858.9 KB)
+0125.924 (0) Creating zip file manifest (backup_2022-12-01-1838_Krunal_Kanojiya_1a68dd61edd6-plugins.zip.list-temp.tmp)
+0126.210 (0) Successfully created zip file manifest (size: 429415)
+0126.568 (0) Created plugins zip (0) - 24380.6 KB in 126.4 s (192.8 KB/s) (sha1: bb9f0ee0e80b6a9c2ed0dd8c91c4613d5ed0f56c, sha256: c2b30dece7584bd6a60689eb1f255cbe3d7f3bb2a48c1403c5134716388ab24e)
+0126.577 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0126.578 (0) No remote despatch: user chose no remote backup service
+0126.580 (0) Recording as successfully uploaded: backup_2022-12-01-1838_Krunal_Kanojiya_1a68dd61edd6-plugins.zip
+0126.583 (0) Deleting zip manifest (backup_2022-12-01-1838_Krunal_Kanojiya_1a68dd61edd6-plugins.zip.list.tmp)
+0126.587 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0126.589 (0) Number of backup sets in history: 0; groups (db): 1
+0126.590 (0) Number of backup sets in history: 0; groups (files): 1
+0126.592 (0) Retain: saving new backup history (sets now: 0) and finishing retain operation
+0126.601 (0) Beginning creation of dump of themes (split every: 400 MB)
+0126.627 (0) Total entities for the zip file: 10 directories, 41 files (0 skipped as non-modified), 0.3 MB
+0126.648 (0) backup_2022-12-01-1838_Krunal_Kanojiya_1a68dd61edd6-themes.zip.tmp: size is now: 0.20 MB
+0126.653 (0) Creating zip file manifest (backup_2022-12-01-1838_Krunal_Kanojiya_1a68dd61edd6-themes.zip.list-temp.tmp)
+0126.655 (0) Successfully created zip file manifest (size: 2356)
+0126.663 (0) Created themes zip (0) - 170.7 KB in 0 s (4404.2 KB/s) (sha1: 174e6de070c452589a8e7ca1771706fbbd9f9403, sha256: 51b69d5b3fadb60ed5a7ac07b88c383207910b158016770efcc501e2485eff9b)
+0126.669 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0126.671 (0) No remote despatch: user chose no remote backup service
+0126.672 (0) Recording as successfully uploaded: backup_2022-12-01-1838_Krunal_Kanojiya_1a68dd61edd6-themes.zip
+0126.676 (0) Deleting zip manifest (backup_2022-12-01-1838_Krunal_Kanojiya_1a68dd61edd6-themes.zip.list.tmp)
+0126.679 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0126.681 (0) Number of backup sets in history: 0; groups (db): 1
+0126.683 (0) Number of backup sets in history: 0; groups (files): 1
+0126.684 (0) Retain: saving new backup history (sets now: 0) and finishing retain operation
+0126.692 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0126.693 (0) Looking for candidates to backup in: /home/krunalka/public_html/wp-content/uploads
+0126.695 (0) finding files: 2022: adding to list (1)
+0126.697 (0) finding files: wpo: adding to list (2)
+0126.698 (0) finding files: .htaccess: adding to list (3)
+0126.700 (0) finding files: elementor: adding to list (4)
+0126.702 (0) finding files: ao_ccss: adding to list (5)
+0126.703 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0126.730 (0) Total entities for the zip file: 9 directories, 99 files (0 skipped as non-modified), 2.7 MB
+0130.456 (0) backup_2022-12-01-1838_Krunal_Kanojiya_1a68dd61edd6-uploads.zip.tmp: size is now: 2.70 MB
+0130.470 (0) Creating zip file manifest (backup_2022-12-01-1838_Krunal_Kanojiya_1a68dd61edd6-uploads.zip.list-temp.tmp)
+0130.472 (0) Successfully created zip file manifest (size: 5426)
+0130.505 (0) Created uploads zip (0) - 2759.5 KB in 3.8 s (730.4 KB/s) (sha1: 9739ebed5a072b172350870458662fa71a42ac28, sha256: 238b0768409beb198febaf9def85c18a64ac10ed356e6bac5b4d3ac02f828e91)
+0130.510 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0130.512 (0) No remote despatch: user chose no remote backup service
+0130.514 (0) Recording as successfully uploaded: backup_2022-12-01-1838_Krunal_Kanojiya_1a68dd61edd6-uploads.zip
+0130.517 (0) Deleting zip manifest (backup_2022-12-01-1838_Krunal_Kanojiya_1a68dd61edd6-uploads.zip.list.tmp)
+0130.521 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0130.523 (0) Number of backup sets in history: 0; groups (db): 1
+0130.525 (0) Number of backup sets in history: 0; groups (files): 1
+0130.527 (0) Retain: saving new backup history (sets now: 0) and finishing retain operation
+0130.535 (0) Beginning backup of other directories found in the content directory (index: 0)
+0130.537 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0130.542 (0) Looking for candidates to backup in: /home/krunalka/public_html/wp-content
+0130.544 (0) finding files: index.php: adding to list (1)
+0130.545 (0) finding files: plugins: skipping: this is the plugins directory
+0130.547 (0) finding files: themes: skipping: this is the themes directory
+0130.549 (0) finding files: upgrade: skipping: excluded by options
+0130.551 (0) finding files: uploads: skipping: this is the uploads directory
+0130.553 (0) finding files: ai1wm-backups: skipping: excluded by options (glob)
+0130.554 (0) finding files: themes.zip: adding to list (2)
+0130.556 (0) finding files: updraft: skipping: this is the updraft directory
+0130.558 (0) finding files: cache: skipping: excluded by options
+0130.559 (0) finding files: autoptimize_404_handler.php: adding to list (3)
+0130.584 (0) Total entities for the zip file: 0 directories, 3 files (0 skipped as non-modified), 0 MB
+0130.593 (0) backup_2022-12-01-1838_Krunal_Kanojiya_1a68dd61edd6-others.zip.tmp: size is now: 0.00 MB
+0130.597 (0) Creating zip file manifest (backup_2022-12-01-1838_Krunal_Kanojiya_1a68dd61edd6-others.zip.list-temp.tmp)
+0130.599 (0) Successfully created zip file manifest (size: 99)
+0130.607 (0) Created others zip (0) - 2.1 KB in 0 s (90.4 KB/s) (sha1: 4105df3b8de4b16546c443a35fdff0446eb29f64, sha256: 323d992042ff33041f7411fb027eb1358209e6eb48ca8a7095186c7007c1e032)
+0130.612 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0130.614 (0) No remote despatch: user chose no remote backup service
+0130.616 (0) Recording as successfully uploaded: backup_2022-12-01-1838_Krunal_Kanojiya_1a68dd61edd6-others.zip
+0130.619 (0) Deleting zip manifest (backup_2022-12-01-1838_Krunal_Kanojiya_1a68dd61edd6-others.zip.list.tmp)
+0130.623 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0130.625 (0) Number of backup sets in history: 0; groups (db): 1
+0130.627 (0) Number of backup sets in history: 0; groups (files): 1
+0130.629 (0) Retain: saving new backup history (sets now: 0) and finishing retain operation
+0130.645 (0) Saving backup status to database (elements: 8)
+0130.649 (0) Beginning creation of database dump (WordPress DB)
+0130.651 (0) Couldn't get the sql_mode value (N;); will not attempt any adjustment
+0130.655 (0) Testing potential mysqldump binary: /usr/bin/mysqldump
+0134.360 (0) Output: /*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;\n/*!40103 SET TIME_ZONE='+00:00' */;\n/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;\n/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;\n/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;\n/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;\nDROP TABLE IF EXISTS `wpxx_options`;\n/*!40101 SET @saved_cs_client     = @@character_set_client */;\n/*!40101 SET character_set_client = utf8 */;\nC (truncated - 1462 bytes total)
+0134.362 (0) Working binary mysqldump found: /usr/bin/mysqldump
+0134.376 (0) Table wpxx_options: Total expected rows (via COUNT): 343
+0134.377 (0) Table is relatively small; fetch_rows will thus be: 500 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0134.866 (0) Table wpxx_options: Rows added in this batch (next record: 1206): 339 (uncompressed bytes in this segment=3283871) in 0.50 seconds
+0134.893 (0) Table wpxx_options: finishing file(s) (2, 540.7 KB)
+0134.898 (0) Table wpxx_users: Total expected rows (via COUNT): 1
+0134.900 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0134.904 (0) Table wpxx_users: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=1212) in 0.01 seconds
+0134.910 (0) Table wpxx_users: finishing file(s) (2, 0.6 KB)
+0134.917 (0) Table wpxx_usermeta: Total expected rows (via COUNT): 37
+0134.919 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0134.923 (0) Table wpxx_usermeta: Rows added in this batch (next record: 40): 37 (uncompressed bytes in this segment=3790) in 0.01 seconds
+0134.931 (0) Table wpxx_usermeta: finishing file(s) (2, 1.7 KB)
+0134.938 (0) Table wpxx_commentmeta: Total expected rows (via COUNT): 0
+0134.942 (0) Table wpxx_commentmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=646) in 0.01 seconds
+0134.950 (0) Table wpxx_commentmeta: finishing file(s) (2, 0.4 KB)
+0134.955 (0) Table wpxx_comments: Total expected rows (via COUNT): 1
+0134.957 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0134.961 (0) Table wpxx_comments: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=1910) in 0.01 seconds
+0134.967 (0) Table wpxx_comments: finishing file(s) (2, 0.7 KB)
+0134.972 (0) Table wpxx_links: Total expected rows (via COUNT): 0
+0134.976 (0) Table wpxx_links: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1039) in 0.00 seconds
+0134.982 (0) Table wpxx_links: finishing file(s) (2, 0.5 KB)
+0134.990 (0) Table wpxx_postmeta: Total expected rows (via COUNT): 1026
+0134.992 (0) Table is relatively small; fetch_rows will thus be: 500 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0135.012 (0) Table wpxx_postmeta: Rows added in this batch (next record: 1202): 1026 (uncompressed bytes in this segment=584970) in 0.03 seconds
+0135.021 (0) Table wpxx_postmeta: finishing file(s) (2, 25.6 KB)
+0135.028 (0) Table wpxx_posts: Total expected rows (via COUNT): 197
+0135.030 (0) Table is relatively small; fetch_rows will thus be: 250 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0135.048 (0) Table wpxx_posts: Rows added in this batch (next record: 213): 197 (uncompressed bytes in this segment=240448) in 0.02 seconds
+0135.056 (0) Table wpxx_posts: finishing file(s) (2, 15.8 KB)
+0135.061 (0) Table wpxx_term_relationships: Total expected rows (approximate): 6
+0135.065 (0) Table wpxx_term_relationships: Rows added in this batch (next record: 100000): 6 (uncompressed bytes in this segment=780) in 0.00 seconds
+0135.071 (0) Table wpxx_term_relationships: finishing file(s) (2, 0.4 KB)
+0135.078 (0) Table wpxx_term_taxonomy: Total expected rows (via COUNT): 3
+0135.079 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0135.083 (0) Table wpxx_term_taxonomy: Rows added in this batch (next record: 4): 3 (uncompressed bytes in this segment=962) in 0.01 seconds
+0135.091 (0) Table wpxx_term_taxonomy: finishing file(s) (2, 0.5 KB)
+0135.098 (0) Table wpxx_termmeta: Total expected rows (via COUNT): 0
+0135.101 (0) Table wpxx_termmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=619) in 0.01 seconds
+0135.109 (0) Table wpxx_termmeta: finishing file(s) (2, 0.4 KB)
+0135.114 (0) Table wpxx_terms: Total expected rows (via COUNT): 3
+0135.116 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0135.119 (0) Table wpxx_terms: Rows added in this batch (next record: 4): 3 (uncompressed bytes in this segment=756) in 0.01 seconds
+0135.126 (0) Table wpxx_terms: finishing file(s) (2, 0.4 KB)
+0135.133 (0) Table wpxx_actionscheduler_actions: Total expected rows (via COUNT): 7
+0135.135 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0135.137 (0) Table wpxx_actionscheduler_actions: Rows added in this batch (next record: 150): 7 (uncompressed bytes in this segment=3618) in 0.01 seconds
+0135.145 (0) Table wpxx_actionscheduler_actions: finishing file(s) (2, 0.9 KB)
+0135.151 (0) Table wpxx_actionscheduler_claims: Total expected rows (via COUNT): 0
+0135.154 (0) Table wpxx_actionscheduler_claims: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=618) in 0.00 seconds
+0135.160 (0) Table wpxx_actionscheduler_claims: finishing file(s) (2, 0.4 KB)
+0135.165 (0) Table wpxx_actionscheduler_groups: Total expected rows (via COUNT): 2
+0135.167 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0135.171 (0) Table wpxx_actionscheduler_groups: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=688) in 0.01 seconds
+0135.177 (0) Table wpxx_actionscheduler_groups: finishing file(s) (2, 0.4 KB)
+0135.182 (0) Table wpxx_actionscheduler_logs: Total expected rows (via COUNT): 8
+0135.184 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0135.186 (0) Table wpxx_actionscheduler_logs: Rows added in this batch (next record: 8): 8 (uncompressed bytes in this segment=1418) in 0.00 seconds
+0135.192 (0) Table wpxx_actionscheduler_logs: finishing file(s) (2, 0.5 KB)
+0135.200 (0) Table wpxx_aioseo_cache: Total expected rows (via COUNT): 16
+0135.202 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0135.206 (0) Table wpxx_aioseo_cache: Rows added in this batch (next record: 37): 16 (uncompressed bytes in this segment=86474) in 0.01 seconds
+0135.214 (0) Table wpxx_aioseo_cache: finishing file(s) (2, 15 KB)
+0135.221 (0) Table wpxx_aioseo_notifications: Total expected rows (via COUNT): 0
+0135.225 (0) Table wpxx_aioseo_notifications: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1377) in 0.01 seconds
+0135.232 (0) Table wpxx_aioseo_notifications: finishing file(s) (2, 0.5 KB)
+0135.240 (0) Table wpxx_aioseo_posts: Total expected rows (via COUNT): 0
+0135.242 (0) Table wpxx_aioseo_posts: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=2875) in 0.01 seconds
+0135.250 (0) Table wpxx_aioseo_posts: finishing file(s) (2, 0.8 KB)
+0135.256 (0) Table wpxx_e_events: Total expected rows (via COUNT): 2
+0135.257 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0135.261 (0) Table wpxx_e_events: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=972) in 0.01 seconds
+0135.267 (0) Table wpxx_e_events: finishing file(s) (2, 0.5 KB)
+0135.272 (0) Table wpxx_e_submissions: Total expected rows (via COUNT): 0
+0135.276 (0) Table wpxx_e_submissions: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1991) in 0.00 seconds
+0135.282 (0) Table wpxx_e_submissions: finishing file(s) (2, 0.7 KB)
+0135.287 (0) Table wpxx_e_submissions_actions_log: Total expected rows (via COUNT): 0
+0135.289 (0) Table wpxx_e_submissions_actions_log: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1152) in 0.00 seconds
+0135.295 (0) Table wpxx_e_submissions_actions_log: finishing file(s) (2, 0.5 KB)
+0135.302 (0) Table wpxx_e_submissions_values: Total expected rows (via COUNT): 0
+0135.304 (0) Table wpxx_e_submissions_values: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=685) in 0.00 seconds
+0135.312 (0) Table wpxx_e_submissions_values: finishing file(s) (2, 0.4 KB)
+0135.319 (0) Table wpxx_tm_taskmeta: Total expected rows (via COUNT): 0
+0135.323 (0) Table wpxx_tm_taskmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=619) in 0.01 seconds
+0135.330 (0) Table wpxx_tm_taskmeta: finishing file(s) (2, 0.4 KB)
+0135.336 (0) Table wpxx_tm_tasks: Total expected rows (via COUNT): 0
+0135.339 (0) Table wpxx_tm_tasks: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=762) in 0.00 seconds
+0135.345 (0) Table wpxx_tm_tasks: finishing file(s) (2, 0.4 KB)
+0135.353 (0) Table wpxx_yoast_indexable: Total expected rows (via COUNT): 51
+0135.355 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0135.364 (0) Table wpxx_yoast_indexable: Rows added in this batch (next record: 52): 51 (uncompressed bytes in this segment=42528) in 0.01 seconds
+0135.372 (0) Table wpxx_yoast_indexable: finishing file(s) (2, 5.8 KB)
+0135.377 (0) Table wpxx_yoast_indexable_hierarchy: Total expected rows (approximate): 12
+0135.381 (0) Table wpxx_yoast_indexable_hierarchy: Rows added in this batch (next record: 1000): 12 (uncompressed bytes in this segment=1005) in 0.00 seconds
+0135.387 (0) Table wpxx_yoast_indexable_hierarchy: finishing file(s) (2, 0.4 KB)
+0135.392 (0) Table wpxx_yoast_migrations: Total expected rows (via COUNT): 23
+0135.394 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0135.398 (0) Table wpxx_yoast_migrations: Rows added in this batch (next record: 23): 23 (uncompressed bytes in this segment=1227) in 0.01 seconds
+0135.404 (0) Table wpxx_yoast_migrations: finishing file(s) (2, 0.6 KB)
+0135.409 (0) Table wpxx_yoast_primary_term: Total expected rows (via COUNT): 0
+0135.412 (0) Table wpxx_yoast_primary_term: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=841) in 0.00 seconds
+0135.419 (0) Table wpxx_yoast_primary_term: finishing file(s) (2, 0.4 KB)
+0135.424 (0) Table wpxx_yoast_seo_links: Total expected rows (via COUNT): 12
+0135.426 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0135.430 (0) Table wpxx_yoast_seo_links: Rows added in this batch (next record: 17): 12 (uncompressed bytes in this segment=2553) in 0.01 seconds
+0135.436 (0) Table wpxx_yoast_seo_links: finishing file(s) (2, 0.8 KB)
+0135.439 (0) backup_2022-12-01-1838_Krunal_Kanojiya_1a68dd61edd6-db-table-wpxx_options.table.tmpr1207.gz (1/30/fopen): adding to final database dump
+0135.698 (0) backup_2022-12-01-1838_Krunal_Kanojiya_1a68dd61edd6-db-table-wpxx_options.table.gz (2/30/fopen): adding to final database dump
+0135.707 (0) backup_2022-12-01-1838_Krunal_Kanojiya_1a68dd61edd6-db-table-wpxx_users.table.tmpr2.gz (3/30/fopen): adding to final database dump
+0135.712 (0) backup_2022-12-01-1838_Krunal_Kanojiya_1a68dd61edd6-db-table-wpxx_users.table.gz (4/30/fopen): adding to final database dump
+0135.713 (0) backup_2022-12-01-1838_Krunal_Kanojiya_1a68dd61edd6-db-table-wpxx_usermeta.table.tmpr41.gz (5/30/fopen): adding to final database dump
+0135.715 (0) backup_2022-12-01-1838_Krunal_Kanojiya_1a68dd61edd6-db-table-wpxx_usermeta.table.gz (6/30/fopen): adding to final database dump
+0135.717 (0) backup_2022-12-01-1838_Krunal_Kanojiya_1a68dd61edd6-db-table-wpxx_commentmeta.table.tmpr0.gz (7/30/fopen): adding to final database dump
+0135.719 (0) backup_2022-12-01-1838_Krunal_Kanojiya_1a68dd61edd6-db-table-wpxx_commentmeta.table.gz (8/30/fopen): adding to final database dump
+0135.720 (0) backup_2022-12-01-1838_Krunal_Kanojiya_1a68dd61edd6-db-table-wpxx_comments.table.tmpr2.gz (9/30/fopen): adding to final database dump
+0135.722 (0) backup_2022-12-01-1838_Krunal_Kanojiya_1a68dd61edd6-db-table-wpxx_comments.table.gz (10/30/fopen): adding to final database dump
+0135.724 (0) backup_2022-12-01-1838_Krunal_Kanojiya_1a68dd61edd6-db-table-wpxx_links.table.tmpr0.gz (11/30/fopen): adding to final database dump
+0135.726 (0) backup_2022-12-01-1838_Krunal_Kanojiya_1a68dd61edd6-db-table-wpxx_links.table.gz (12/30/fopen): adding to final database dump
+0135.727 (0) backup_2022-12-01-1838_Krunal_Kanojiya_1a68dd61edd6-db-table-wpxx_postmeta.table.tmpr1203.gz (13/30/fopen): adding to final database dump
+0135.730 (0) backup_2022-12-01-1838_Krunal_Kanojiya_1a68dd61edd6-db-table-wpxx_postmeta.table.gz (14/30/fopen): adding to final database dump
+0135.731 (0) backup_2022-12-01-1838_Krunal_Kanojiya_1a68dd61edd6-db-table-wpxx_posts.table.tmpr214.gz (15/30/fopen): adding to final database dump
+0135.741 (0) backup_2022-12-01-1838_Krunal_Kanojiya_1a68dd61edd6-db-table-wpxx_posts.table.gz (16/30/fopen): adding to final database dump
+0135.742 (0) backup_2022-12-01-1838_Krunal_Kanojiya_1a68dd61edd6-db-table-wpxx_term_relationships.table.tmpr100001.gz (17/30/fopen): adding to final database dump
+0135.744 (0) backup_2022-12-01-1838_Krunal_Kanojiya_1a68dd61edd6-db-table-wpxx_term_relationships.table.gz (18/30/fopen): adding to final database dump
+0135.746 (0) backup_2022-12-01-1838_Krunal_Kanojiya_1a68dd61edd6-db-table-wpxx_term_taxonomy.table.tmpr5.gz (19/30/fopen): adding to final database dump
+0135.748 (0) backup_2022-12-01-1838_Krunal_Kanojiya_1a68dd61edd6-db-table-wpxx_term_taxonomy.table.gz (20/30/fopen): adding to final database dump
+0135.749 (0) backup_2022-12-01-1838_Krunal_Kanojiya_1a68dd61edd6-db-table-wpxx_termmeta.table.tmpr0.gz (21/30/fopen): adding to final database dump
+0135.751 (0) backup_2022-12-01-1838_Krunal_Kanojiya_1a68dd61edd6-db-table-wpxx_termmeta.table.gz (22/30/fopen): adding to final database dump
+0135.753 (0) backup_2022-12-01-1838_Krunal_Kanojiya_1a68dd61edd6-db-table-wpxx_terms.table.tmpr5.gz (23/30/fopen): adding to final database dump
+0135.755 (0) backup_2022-12-01-1838_Krunal_Kanojiya_1a68dd61edd6-db-table-wpxx_terms.table.gz (24/30/fopen): adding to final database dump
+0135.756 (0) backup_2022-12-01-1838_Krunal_Kanojiya_1a68dd61edd6-db-table-wpxx_actionscheduler_actions.table.tmpr151.gz (25/30/fopen): adding to final database dump
+0135.758 (0) backup_2022-12-01-1838_Krunal_Kanojiya_1a68dd61edd6-db-table-wpxx_actionscheduler_actions.table.gz (26/30/fopen): adding to final database dump
+0135.760 (0) backup_2022-12-01-1838_Krunal_Kanojiya_1a68dd61edd6-db-table-wpxx_actionscheduler_claims.table.tmpr0.gz (27/30/fopen): adding to final database dump
+0135.762 (0) backup_2022-12-01-1838_Krunal_Kanojiya_1a68dd61edd6-db-table-wpxx_actionscheduler_claims.table.gz (28/30/fopen): adding to final database dump
+0135.763 (0) backup_2022-12-01-1838_Krunal_Kanojiya_1a68dd61edd6-db-table-wpxx_actionscheduler_groups.table.tmpr3.gz (29/30/fopen): adding to final database dump
+0135.765 (0) backup_2022-12-01-1838_Krunal_Kanojiya_1a68dd61edd6-db-table-wpxx_actionscheduler_groups.table.gz (30/30/fopen): adding to final database dump
+0135.767 (0) backup_2022-12-01-1838_Krunal_Kanojiya_1a68dd61edd6-db-table-wpxx_actionscheduler_logs.table.tmpr9.gz (31/30/fopen): adding to final database dump
+0135.769 (0) backup_2022-12-01-1838_Krunal_Kanojiya_1a68dd61edd6-db-table-wpxx_actionscheduler_logs.table.gz (32/30/fopen): adding to final database dump
+0135.770 (0) backup_2022-12-01-1838_Krunal_Kanojiya_1a68dd61edd6-db-table-wpxx_aioseo_cache.table.tmpr38.gz (33/30/fopen): adding to final database dump
+0135.772 (0) backup_2022-12-01-1838_Krunal_Kanojiya_1a68dd61edd6-db-table-wpxx_aioseo_cache.table.gz (34/30/fopen): adding to final database dump
+0135.774 (0) backup_2022-12-01-1838_Krunal_Kanojiya_1a68dd61edd6-db-table-wpxx_aioseo_notifications.table.tmpr0.gz (35/30/fopen): adding to final database dump
+0135.776 (0) backup_2022-12-01-1838_Krunal_Kanojiya_1a68dd61edd6-db-table-wpxx_aioseo_notifications.table.gz (36/30/fopen): adding to final database dump
+0135.778 (0) backup_2022-12-01-1838_Krunal_Kanojiya_1a68dd61edd6-db-table-wpxx_aioseo_posts.table.tmpr0.gz (37/30/fopen): adding to final database dump
+0135.780 (0) backup_2022-12-01-1838_Krunal_Kanojiya_1a68dd61edd6-db-table-wpxx_aioseo_posts.table.gz (38/30/fopen): adding to final database dump
+0135.781 (0) backup_2022-12-01-1838_Krunal_Kanojiya_1a68dd61edd6-db-table-wpxx_e_events.table.tmpr3.gz (39/30/fopen): adding to final database dump
+0135.783 (0) backup_2022-12-01-1838_Krunal_Kanojiya_1a68dd61edd6-db-table-wpxx_e_events.table.gz (40/30/fopen): adding to final database dump
+0135.784 (0) backup_2022-12-01-1838_Krunal_Kanojiya_1a68dd61edd6-db-table-wpxx_e_submissions.table.tmpr0.gz (41/30/fopen): adding to final database dump
+0135.786 (0) backup_2022-12-01-1838_Krunal_Kanojiya_1a68dd61edd6-db-table-wpxx_e_submissions.table.gz (42/30/fopen): adding to final database dump
+0135.788 (0) backup_2022-12-01-1838_Krunal_Kanojiya_1a68dd61edd6-db-table-wpxx_e_submissions_actions_log.table.tmpr0.gz (43/30/fopen): adding to final database dump
+0135.790 (0) backup_2022-12-01-1838_Krunal_Kanojiya_1a68dd61edd6-db-table-wpxx_e_submissions_actions_log.table.gz (44/30/fopen): adding to final database dump
+0135.792 (0) backup_2022-12-01-1838_Krunal_Kanojiya_1a68dd61edd6-db-table-wpxx_e_submissions_values.table.tmpr0.gz (45/30/fopen): adding to final database dump
+0135.793 (0) backup_2022-12-01-1838_Krunal_Kanojiya_1a68dd61edd6-db-table-wpxx_e_submissions_values.table.gz (46/30/fopen): adding to final database dump
+0135.795 (0) backup_2022-12-01-1838_Krunal_Kanojiya_1a68dd61edd6-db-table-wpxx_tm_taskmeta.table.tmpr0.gz (47/30/fopen): adding to final database dump
+0135.797 (0) backup_2022-12-01-1838_Krunal_Kanojiya_1a68dd61edd6-db-table-wpxx_tm_taskmeta.table.gz (48/30/fopen): adding to final database dump
+0135.799 (0) backup_2022-12-01-1838_Krunal_Kanojiya_1a68dd61edd6-db-table-wpxx_tm_tasks.table.tmpr0.gz (49/30/fopen): adding to final database dump
+0135.800 (0) backup_2022-12-01-1838_Krunal_Kanojiya_1a68dd61edd6-db-table-wpxx_tm_tasks.table.gz (50/30/fopen): adding to final database dump
+0135.802 (0) backup_2022-12-01-1838_Krunal_Kanojiya_1a68dd61edd6-db-table-wpxx_yoast_indexable.table.tmpr53.gz (51/30/fopen): adding to final database dump
+0135.804 (0) backup_2022-12-01-1838_Krunal_Kanojiya_1a68dd61edd6-db-table-wpxx_yoast_indexable.table.gz (52/30/fopen): adding to final database dump
+0135.806 (0) backup_2022-12-01-1838_Krunal_Kanojiya_1a68dd61edd6-db-table-wpxx_yoast_indexable_hierarchy.table.tmpr1001.gz (53/30/fopen): adding to final database dump
+0135.807 (0) backup_2022-12-01-1838_Krunal_Kanojiya_1a68dd61edd6-db-table-wpxx_yoast_indexable_hierarchy.table.gz (54/30/fopen): adding to final database dump
+0135.809 (0) backup_2022-12-01-1838_Krunal_Kanojiya_1a68dd61edd6-db-table-wpxx_yoast_migrations.table.tmpr24.gz (55/30/fopen): adding to final database dump
+0135.811 (0) backup_2022-12-01-1838_Krunal_Kanojiya_1a68dd61edd6-db-table-wpxx_yoast_migrations.table.gz (56/30/fopen): adding to final database dump
+0135.812 (0) backup_2022-12-01-1838_Krunal_Kanojiya_1a68dd61edd6-db-table-wpxx_yoast_primary_term.table.tmpr0.gz (57/30/fopen): adding to final database dump
+0135.814 (0) backup_2022-12-01-1838_Krunal_Kanojiya_1a68dd61edd6-db-table-wpxx_yoast_primary_term.table.gz (58/30/fopen): adding to final database dump
+0135.816 (0) backup_2022-12-01-1838_Krunal_Kanojiya_1a68dd61edd6-db-table-wpxx_yoast_seo_links.table.tmpr18.gz (59/30/fopen): adding to final database dump
+0135.817 (0) backup_2022-12-01-1838_Krunal_Kanojiya_1a68dd61edd6-db-table-wpxx_yoast_seo_links.table.gz (60/30/fopen): adding to final database dump
+0135.821 (0) backup_2022-12-01-1838_Krunal_Kanojiya_1a68dd61edd6-db.gz: finished writing out complete database file (617.1 KB)
+0135.835 (0) Total database tables backed up: 30 (backup_2022-12-01-1838_Krunal_Kanojiya_1a68dd61edd6-db.gz, size: 632058, sha1: 3703d11e8cf0feebe9f0f721724c64503ae33dd3, sha256: 4d0f8fe56a549290ac68e33670490192d6f4ddc7fb9d1cb0cb1cee4115d995bd)
+0135.847 (0) backup_2022-12-01-1838_Krunal_Kanojiya_1a68dd61edd6-plugins.zip: plugins: This file has already been successfully uploaded
+0135.849 (0) backup_2022-12-01-1838_Krunal_Kanojiya_1a68dd61edd6-themes.zip: themes: This file has already been successfully uploaded
+0135.850 (0) backup_2022-12-01-1838_Krunal_Kanojiya_1a68dd61edd6-uploads.zip: uploads: This file has already been successfully uploaded
+0135.852 (0) backup_2022-12-01-1838_Krunal_Kanojiya_1a68dd61edd6-others.zip: others: This file has already been successfully uploaded
+0135.854 (0) backup_2022-12-01-1838_Krunal_Kanojiya_1a68dd61edd6-db.gz: db: This file has not yet been successfully uploaded: will queue
+0135.856 (0) Saving backup history. Total backup size: 27.3 MB
+0135.860 (0) Requesting upload of the files that have not yet been successfully uploaded (1)
+0135.865 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0135.867 (0) No remote despatch: user chose no remote backup service
+0135.869 (0) Recording as successfully uploaded: backup_2022-12-01-1838_Krunal_Kanojiya_1a68dd61edd6-db.gz
+0135.874 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0135.876 (0) Number of backup sets in history: 1; groups (db): 1
+0135.878 (0) Examining (for databases) backup set with group_id=0, nonce=1a68dd61edd6, datestamp=1669900133 (Dec 01 2022 13:08:53)
+0135.880 (0) This backup set is the backup set just made, so will not be deleted.
+0135.880 (0) Number of backup sets in history: 1; groups (files): 1
+0135.882 (0) Examining (for files) backup set with nonce=1a68dd61edd6, datestamp=1669900133 (Dec 01 2022 13:08:53)
+0135.882 (0) This backup set is the backup set just made, so will not be deleted.
+0135.884 (0) This backup set is the backup set just made, so will not be deleted.
+0135.884 (0) This backup set is the backup set just made, so will not be deleted.
+0135.884 (0) This backup set is the backup set just made, so will not be deleted.
+0135.884 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0135.886 (0) Retain: saving new backup history (sets now: 1) and finishing retain operation
+0135.889 (0) Resume backup (1a68dd61edd6, 0): finish run
+0135.896 (0) Decremented the semaphore (fd) by 1
+0135.899 (0) Semaphore (fd) unlocked
+0135.901 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0135.907 (0) No email will/can be sent - the user has not configured an email address.
+0135.909 (0) The backup apparently succeeded and is now complete
